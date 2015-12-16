@@ -1,0 +1,1 @@
+![alt tag](https://github.com/thorvard/CustomMapMarkers/blob/master/art/example.gif)
