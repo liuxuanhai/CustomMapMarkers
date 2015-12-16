@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <com.ender.mapmodule.utils.map.MapWrapperLayout
+        android:id="@+id/mapWrapperLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/frameMap"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </com.ender.mapmodule.utils.map.MapWrapperLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlContainer"
+        style="@style/MapFragmentListContainer">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="HERE GOES THE CONTENT"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/ivSwitch"
+        style="@style/ImageMapButton"
+        android:contentDescription="@string/app_name" />
+
+</RelativeLayout>

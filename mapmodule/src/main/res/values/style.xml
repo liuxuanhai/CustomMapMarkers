@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MAP FRAGMENT LIST CONTAINER -->
+    <style name="MapFragmentListContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="ImageMapButton">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:visibility">gone</item>
+    </style>
+</resources>
